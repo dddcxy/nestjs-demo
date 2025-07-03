@@ -30,7 +30,8 @@ export default tseslint.config(
       '@typescript-eslint/no-floating-promises': 'off',
       '@typescript-eslint/no-unsafe-argument': 'warn',
       'linebreak-style': 'off',
-      '@typescript-eslint/no-unsafe-call':'off'
+      '@typescript-eslint/no-unsafe-call': 'off',
+      '@typescript-eslint/no-unsafe-return': 'off'
     },
   },
 );

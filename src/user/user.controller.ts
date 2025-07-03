@@ -16,6 +16,7 @@ import { ApiTags, ApiOperation, ApiBody, ApiResponse } from '@nestjs/swagger';
 @ApiTags('用户')
 @Controller('user')
 export class UserController {
+  // 通过构造函数注入，UserController 可以直接调用 UserService 的方法，无需手动创建实例
   constructor(private readonly userService: UserService) {}
 
   @Post()
